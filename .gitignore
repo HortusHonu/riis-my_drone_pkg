@@ -1,0 +1,28 @@
+# --- ROS 2 Workspaces ---
+build/
+install/
+log/
+.colcon/
+
+# --- Python & C++ Cache/Binaries ---
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+
+# --- PX4 Firmware & Simulation Build Artifacts ---
+build_*/
+*.ulg
+*.log
+*.pcd
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# --- Operating System & IDEs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.user
